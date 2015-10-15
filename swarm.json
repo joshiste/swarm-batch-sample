@@ -1,0 +1,12 @@
+{
+  "name": "swarm-batch-sample",
+  "components": {
+    "webserver": {
+      "image": "registry02.giantswarm.io/devk/swarm-batch-sample:0.0.1-SNAPSHOT",
+      "ports": 8080,
+      "domains": {
+        "8080": "batch-sample-joshiste.leaseweb-alpha.giantswarm.io"
+      }
+    }
+  }
+}

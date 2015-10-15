@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: @project.artifactId@ 
+batch:
+  config:
+    package:
+      javaconfig: com.github.joshiste.batch.jobs
+  web:
+    operations:
+      base: /batch
+
+logging:
+  path: /var/log
